@@ -30,4 +30,6 @@ This guide explains how to modify GRUB2 to boot an ISO directly from an existing
 ## Notes
 - Ensure you modify the correct GRUB2 configuration file depending on your system.
 - The exact GRUB2 command may vary based on the distribution and bootloader configuration.
+## Reference
+- https://clonezilla.org/livehd.php
 
