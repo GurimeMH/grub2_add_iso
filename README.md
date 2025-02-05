@@ -26,6 +26,11 @@ This guide explains how to modify GRUB2 to boot an ISO directly from an existing
      ```sh
      sudo grub2-mkconfig -o "$(readlink -e /etc/grub2-efi.cfg)"
      ```
+     alternatively:
+     ```sh
+     sudo grub2-mkconfig -o /boot/grub2.grub.cfg
+     ```
+     
 
 ## Notes
 - Ensure you modify the correct GRUB2 configuration file depending on your system.
