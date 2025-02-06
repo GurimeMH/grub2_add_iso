@@ -28,7 +28,7 @@ This guide explains how to modify GRUB2 to boot an ISO directly from an existing
      ```
      alternatively:
      ```sh
-     sudo grub2-mkconfig -o /boot/grub2.grub.cfg
+     sudo grub2-mkconfig -o /boot/grub2/grub.cfg
      ```
      
 
